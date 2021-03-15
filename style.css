@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
     .navbar {
-        background-color: #00aade !important;
+        background-color: #0e75d6e8 !important;
     } 
     .nav-item a:hover {
         color: #000000 !important;
@@ -14,7 +14,7 @@
     font-weight: 800;
     }
     .dropdown-menu.show {
-        background-color: #00aade !important;
+        background-color: #0e75d6e8 !important;
     }
 }
 
@@ -40,7 +40,7 @@ body {
     padding: 15px;
     margin: 0px;
     color: #FEFEFE;
-    background-color: #00aade;
+    background-color: #0e75d6e8;
     font-family: "Lucida Bright", serif;
     font-size: 22px;
     font-weight: 800;
@@ -82,7 +82,7 @@ button {
 
 h1 {
     font-family: "Lucida Bright", serif;
-    color: #00aade;
+    color: #0e75d6e8;
     font-size: 20px;
     font-weight: 800;
 }
