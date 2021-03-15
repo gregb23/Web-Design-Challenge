@@ -1,0 +1,135 @@
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #00aade !important;
+    } 
+    .nav-item a:hover {
+        color: #000000 !important;
+        background-color: #5E5E5E; 
+    }
+    .dropdown-item,
+    .nav-link {
+    font-family: Verdana, sans-serif;
+    font-size: 16px !important;
+    color: #FEFEFE !important;
+    font-weight: 800;
+    }
+    .dropdown-menu.show {
+        background-color: #00aade !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    }
+    
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    line-height: 150%;
+    background: #EBEDEF;
+  }
+
+.navbar-brand {
+    padding: 15px;
+    margin: 0px;
+    color: #FEFEFE;
+    background-color: #00aade;
+    font-family: "Lucida Bright", serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.nav-item a:hover {
+    color: #5E5E5E;
+    background-color: #DFE0E0; 
+}
+
+.navbar-brand:hover {
+    box-shadow: 2px 2px #DFE0E0;
+}
+
+.dropdown-item,
+.nav-link {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    color: #5E5E5E;
+}
+
+button { 
+    background-color: transparent; 
+    border: none;
+    outline: none;
+} 
+
+.box {
+    height: auto;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 13px;
+    color: #5E5E5E;
+    background-color: #FEFEFE;
+    margin: 10px;
+    margin-top: 40px;
+    /* width: 100%; */
+  }
+
+h1 {
+    font-family: "Lucida Bright", serif;
+    color: #00aade;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.summary-image {
+    margin: 10px;
+    height: 200px;
+    float: left;
+}
+
+.image {
+    margin: 10px;
+    height: auto;
+    max-width: 100%;
+}
+
+.nested-image {
+    margin: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+.dropdown-item,
+.nav-link {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    color: #5E5E5E;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    min-height: 500px;
+}
+
+.nav-item a:hover {
+    color: #5E5E5E;
+    background-color: #DFE0E0; 
+}
+
+.navbar-brand:hover {
+    color: #FEFEFE;
+    box-shadow: 2px 2px #DFE0E0;
+}
+
+.hamburger {
+    width: 25px;
+    height: 5px;
+    background-color: #DFE0E0;
+    margin: 3px 0;
+  }

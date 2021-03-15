@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
@@ -65,14 +65,17 @@
        
     <div class="container">
         <div class ="row">
-        <h1>Summary: Latitude </h1>
-            <P>The purpose of this project was to analyze how weather changes as you get closer
-            to the equator. I pulled data from the Open weather API to assemble a dataset for over 500 cities.<br><br>
-            After extrating the data, I used Matplotlib to create various plots that compared weather to Latitude.
-            The following factors were taken into consideration temperature, cloudiness, wind speed and humidity. 
-            The site provides the data source along with the vizualizations created using Matplotlib. I also included
-            an explanation of each plot.
-            </P>
+            <div class="col-12 col-lg-7 box">
+                <h1>Summary: Latitude vs. X</h1>
+                <hr>
+                <img src="./Images/CityLatvsMaxTemp.png" alt="Scatter plot depicting city latitude versus max temperature" class="summary-image"/>
+                <P>The purpose of this project was to analyze how weather changes as you get closer
+                to the equator. I pulled data from the Open weather API to assemble a dataset for over 500 cities. I used juypter notebook to extract and clean the data.<br><br>
+                After completing the data extraction and formating, I used Matplotlib to create various plots that compared weather to Latitude.
+                The following factors were taken into consideration temperature, cloudiness, wind speed and humidity. 
+                The site provides the data source along with the visualizations created using Matplotlib. I also included
+                an explanation of each plot.
+                </P>
     </div>
 </body>
 </html>
