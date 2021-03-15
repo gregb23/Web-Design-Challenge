@@ -17,11 +17,57 @@
 
     <title>Latitude - Latitude Analysis Dashboard with Attitude</title>
 </head>
+   
 <body>
-    <div class="row">
-        <H1>Latitude</H1>
+    <!-- create nav bar with drop down options-->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="d-flex">
+            <a class="navbar-brand" href="#">
+                Latitude
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1">
+        </div>
+        <button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse" role="button" aria-pressed="false" data-target="#menu_items">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-1" id="menu_items">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./maxtemp.html">Max Temp</a>
+                      <a class="dropdown-item" href="./humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comparisons.html" type="button">
+                        Comparisons
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./data.html" type="button">
+                        Data
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+       
+    <div class="container">
+        <div class ="row">
+        <h1>Summary: Latitude </h1>
             <P>The purpose of this project was to analyze how weather changes as you get closer
-            to the equator. I pulled data from the Open weather API to assemble a dataset for over 500 cities. 
+            to the equator. I pulled data from the Open weather API to assemble a dataset for over 500 cities.<br><br>
             After extrating the data, I used Matplotlib to create various plots that compared weather to Latitude.
             The following factors were taken into consideration temperature, cloudiness, wind speed and humidity. 
             The site provides the data source along with the vizualizations created using Matplotlib. I also included
